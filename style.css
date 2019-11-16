@@ -1,0 +1,93 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2019/11/12/17/28/rocky-coast-4621579_960_720.jpg);
+  background-size: 100%;
+}
+
+a {
+  text-decoration: rgb(238, 110, 110);
+  color: rgb(87, 84, 84);
+}
+a.hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.596);
+  margin: 250px auto 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container img {
+  width: 20px;
+  height: 20px;
+  margin-left: 380px;
+  cursor: pointer;
+}
+
+svg {
+  width: 120px;
+  height: 120px;
+  margin-top: -160px;
+  border-radius: 50%;
+  background-color: rgba(247, 242, 242, 0.747);
+  border-radius: 90px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.svg {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.face {
+  width: 250px;
+  height: 50px;
+  font-size: 13px;
+  background: blue;
+  border: none;
+  color: rgb(240, 240, 240);
+  margin: 0 auto;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.new {
+  padding: 10px;
+  font-size: 12px;
+  background: rgba(224, 224, 224, 0.651);
+  border: none;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.dws-submit {
+  padding: 13px 30px;
+  margin: -60px 0 30px 0;
+  margin-top: 30px;
+  font-size: 15px;
+  color: rgb(10, 30, 37);
+  background-color: rgb(80, 245, 149);
+  border: none;
+  border-bottom: 4px solid rgb(110, 228, 155);
+  cursor: pointer;
+}
+
+.dws-submit :hover {
+  transition: all 0.5s;
+  background: #4af182;
+  color: #000;
+}
